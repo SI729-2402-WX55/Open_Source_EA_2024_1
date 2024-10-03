@@ -1,0 +1,17 @@
+.toolbar {
+  background-color: deepskyblue;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 10px;
+}
+
+
+.spacer {
+  flex: 1 1 auto;
+}

@@ -1,0 +1,19 @@
+{
+  "home": {
+    "phrase": "HIGN advances equitable health care for older adults by educating \nthe workforce and future professionals, informing policy, advancing research, and providing \ncommunity programs."
+  },
+  "card": {
+    "patient_name": "Patient Name",
+    "patient_birthdate": "Patient Birthdate",
+    "exam_date": "Exam Date",
+    "examiner_name": "Examiner Name",
+    "examiner_npi": "Examiner NPI",
+    "total_score": "Total Score"
+  },
+  "page_not_found": {
+    "title": "404 - Page Not Found",
+    "message_firstPart": "The requested URL",
+    "message_secondPart": "was not found on this server.",
+    "button": "Return to Home"
+  }
+}

@@ -1,0 +1,13 @@
+<mat-nav-list class="exams-list">
+  <!--
+    Country List
+    Iterates over the list of countries and displays each one using the Country Card component.
+  -->
+  @for (exam of mentalStateExams; track exam.id) {
+    <!--
+      Country Card
+      Displays information about a single country.
+    -->
+    <app-mental-state-exam-card [mentalStateExam]="exam"/>
+  }
+</mat-nav-list>

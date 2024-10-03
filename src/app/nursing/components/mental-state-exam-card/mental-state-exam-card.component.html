@@ -1,0 +1,18 @@
+<mat-card class="example-card" appearance="outlined">
+  <mat-card-header>
+    <mat-card-title>{{ 'card.patient_name' | translate }}: {{ patient.fullName }}</mat-card-title>
+    <mat-card-subtitle>{{ 'card.patient_birthdate' | translate }}: {{ patient.birthDate }}</mat-card-subtitle>
+  </mat-card-header>
+  <img [alt]="patient.firstName"
+       [src]="patient.photoUrl"
+       (error)="onImageError($event)"
+       class="card__image"
+       mat-card-image />
+
+  <mat-card-content>
+    <p>{{ 'card.exam_date' | translate }}: {{ mentalStateExam.examDate }}</p>
+    <p>{{ 'card.examiner_name' | translate }}: {{ examiner.fullName }}</p>
+    <p>{{ 'card.examiner_npi' | translate }}: {{ examiner.npi }}</p>
+    <p>{{ 'card.total_score' | translate }}: {{ mentalStateExam.totalScore }}</p>
+  </mat-card-content>
+</mat-card>
